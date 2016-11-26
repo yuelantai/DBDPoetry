@@ -1,0 +1,3 @@
+include ':SgzAndroid'
+project(':SgzAndroid').projectDir=new File('../SgzAndroid')
+include ':app',':SgzAndroid'
